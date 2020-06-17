@@ -60,28 +60,28 @@ class MLPlay:
                         if y < 0 and y > -200:
                             grid.add(13)
                     if x > -80 and x < -20:
-                        if y > 60 and y < 320:
+                        if y > 60 and y < 250:
                             grid.add(4)
                         if y <= -70 and y >= -200:
                             grid.add(14)
                         if y < 70 and y > -60:
                             grid.add(9)
                     if x > -155 and x <= -80 :
-                        if y > 60 and y < 300:
+                        if y > 60 and y < 250:
                             grid.add(5)
                         if y <= -50 and y >= -200:
                             grid.add(15)
                         if y < 60 and y > -50:
                             grid.add(10)
                     if x < 80 and x > 20:
-                        if y > 60 and y < 320:
+                        if y > 60 and y < 250:
                             grid.add(2)
                         if y <= -70 and y >= -200:
                             grid.add(12)
                         if y < 70 and y > -60:
                             grid.add(7)
                     if x < 155 and x >= 80 :
-                        if y > 60 and y < 300:
+                        if y > 60 and y < 250:
                             grid.add(1)
                         if y <= -50 and y >= -200:
                             grid.add(11)
