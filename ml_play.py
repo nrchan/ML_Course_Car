@@ -370,10 +370,10 @@ class MLPlay:
                             print('s')
                             return ["SPEED"]
                     else:
-                        if (4 not in grid) and (5 not in grid) and (9 not in grid) and (10 not in grid) and (14 in grid):
+                        if (4 not in grid) and (9 not in grid) and (14 in grid):
                             print('sr')
                             return ["SPEED", "MOVE_RIGHT"]
-                        if (1 not in grid) and (2 not in grid) and (6 not in grid) and (7 not in grid) and (12 in grid):
+                        if (2 not in grid) and (7 not in grid) and (12 in grid):
                             print('sl')
                             return ["SPEED", "MOVE_LEFT"]
                         # Back to lane center
